@@ -1,0 +1,17 @@
+2024-03-01T17:42:56.074+05:30  INFO 16864 --- [main] in.psk.LogBasedAppApplication            : Starting LogBasedAppApplication using Java 17.0.10 with PID 16864 (D:\SpringWorkSpace\workspace-spring-tool-suite-4-4.21.1.RELEASE\LogBasedApp\target\classes started by HP in D:\SpringWorkSpace\workspace-spring-tool-suite-4-4.21.1.RELEASE\LogBasedApp)
+2024-03-01T17:42:56.079+05:30  INFO 16864 --- [main] in.psk.LogBasedAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-03-01T17:42:57.177+05:30  INFO 16864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9093 (http)
+2024-03-01T17:42:57.196+05:30  INFO 16864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-01T17:42:57.198+05:30  INFO 16864 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-01T17:42:57.279+05:30  INFO 16864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-01T17:42:57.280+05:30  INFO 16864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1121 ms
+2024-03-01T17:42:57.761+05:30  INFO 16864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9093 (http) with context path ''
+2024-03-01T17:42:57.775+05:30  INFO 16864 --- [main] in.psk.LogBasedAppApplication            : Started LogBasedAppApplication in 2.233 seconds (process running for 3.128)
+2024-03-01T17:43:31.414+05:30  INFO 16864 --- [http-nio-9093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-01T17:43:31.414+05:30  INFO 16864 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-01T17:43:31.414+05:30  INFO 16864 --- [http-nio-9093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-01T17:43:31.467+05:30  INFO 16864 --- [http-nio-9093-exec-1] in.psk.AppService                        : Log Info is Started...
+2024-03-01T17:43:31.467+05:30  INFO 16864 --- [http-nio-9093-exec-1] in.psk.AppService                        : Log Info Is ended...
+2024-03-01T17:43:31.467+05:30  WARN 16864 --- [http-nio-9093-exec-1] in.psk.AppService                        : Warn Is Started...
+2024-03-01T17:43:31.467+05:30 ERROR 16864 --- [http-nio-9093-exec-1] in.psk.AppService                        : Error is Started...
+2024-03-01T17:44:34.065+05:30  INFO 16864 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
