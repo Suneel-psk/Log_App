@@ -11,7 +11,6 @@ public class LogBasedAppApplication {
 int a=77;
 
 		int c=10;
-System.out.println("hello");
 	}
 
 }
