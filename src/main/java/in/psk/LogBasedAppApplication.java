@@ -9,6 +9,8 @@ public class LogBasedAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LogBasedAppApplication.class, args);
 int a=1=767;
+
+		int c=10;
 	}
 
 }
